@@ -1,0 +1,52 @@
+$primary_green: #53682b;
+$white: #FFFFFF;
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+}
+
+.button-rounded-green {
+    height: 52px;
+    font-family: 'gotham_bold';
+    font-size: 16px;
+    padding-left: 32px;
+    padding-right: 32px;
+    background-color: $primary_green;
+    color: $white;
+    border-radius: 100px;
+    border: none;
+    cursor: pointer;
+    @media screen and ( max-width: 1000px ) {
+        width: 100%;
+    }
+}
+
+.button-rounded-white {
+    width: 102px;
+    height: 56px;
+    font-family: 'gotham_medium';
+    font-size: 14px;
+    background-color: $white;
+    border-radius: 100px;
+    border: none;
+    cursor: pointer;
+}
+
+.button-rectangle-green {
+    @include flex-center;
+    align-items: center;
+    grid-gap: 15px;
+    font-family: 'gotham_bold';
+    background-color: $primary_green;
+    color: $white;
+    width: 452px;
+    max-width: 100%;
+    height: 88px;
+    cursor: pointer;
+    @media ( max-width: 1500px) {
+        width: 350px;
+    }
+    @media ( max-width: 1200px) {
+        width: 452px;
+    }
+}

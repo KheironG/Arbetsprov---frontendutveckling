@@ -1,0 +1,63 @@
+$secondary_green: #53682B;
+
+.round-icon-green {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background-color: $secondary_green;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.sprite-24 {
+    width: 24px;
+	height: 24px;
+    display: inline-block;
+}
+
+.sprite-32 {
+    width: 32px;
+	height: 32px;
+    display: inline-block;
+}
+
+.sprite-64 {
+    width: 64px;
+	height: 64px;
+    display: inline-block;
+}
+
+
+.bergendal-icon-hr {
+    display: flex;
+    justify-content: center;
+    grid-gap: 10px;
+    width: 768px;
+    max-width: 100%;
+    box-sizing: border-box;
+    margin-top: -35px;
+
+    i {
+        width: 30px;
+        height: 23px;
+        background-image: url('../../assets/logo/bergendal-green.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    span {
+        width: 360px;
+        margin-top: 11px;
+        height: 1px;
+        border-bottom: 1px solid $secondary_green;
+        overflow: hidden;
+        @media ( max-width: 950px) {
+            width: 200px;
+        }
+        @media ( max-width: 600px) {
+            width: 100px;
+        }
+    }
+
+
+}

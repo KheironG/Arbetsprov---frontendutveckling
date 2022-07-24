@@ -1,0 +1,222 @@
+@font-face {
+ font-family: 'gotham_bold';
+ src: url('../../assets/fonts/gotham/Gotham-Bold.otf') format('opentype');
+ font-weight: bold;
+ font-style: normal;
+}
+@font-face {
+ font-family: 'gotham_medium';
+ src: url('../../assets/fonts/gotham/Gotham-Medium.otf') format('opentype');
+ font-weight: normal;
+ font-style: normal;
+}
+@font-face {
+ font-family: 'gotham_book';
+ src: url('../../assets/fonts/gotham/Gotham-Book.otf') format('opentype');
+ font-weight: normal;
+ font-style: normal;
+}
+
+$primary_green: #53682B;
+$primary_grey: #ECECEB;
+$secondary_grey: #F7F7F7;
+$ternary_grey: #E0E0E0;
+$white: #FFFFFF;
+
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+}
+
+@mixin flex-start {
+    display: flex;
+    justify-content: flex-start;
+}
+
+body {
+    font-family: 'gotham_book';
+    width: 100%;
+    margin: 0px;
+    top: 0%;
+    width: 100%;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    overflow-x: hidden;
+    background-color: $secondary_grey;
+
+    @media ( max-width: 600px) {
+        font-size: 13px;
+        line-height: 20px;
+    }
+}
+
+
+h1, h2, h3, h4, h5 {
+    font-family: 'gotham_medium';
+    margin: 0px;
+}
+
+h1 {
+     font-size: 56px;
+     line-height: 62px;
+     @media ( max-width: 1150px ) {
+         font-size: 40px;
+         line-height: 50px;
+     }
+     @media ( max-width: 700px) {
+         font-size: 24px;
+         line-height: 34px;
+     }
+}
+h1.h1 {
+    font-family: 'gotham_medium';
+    margin: 0px;
+    font-size: 53px;
+    line-height: 81px;
+}
+h2 {
+    font-size: 40px;
+    line-height: 58px;
+    @media ( max-width: 1150px ) {
+        font-size: 32px;
+        line-height: 46px;
+    }
+    @media ( max-width: 700px) {
+        font-size: 24px;
+        line-height: 34px;
+    }
+
+}
+h2.h2 {
+    font-family: 'gotham_medium';
+    margin: 0px;
+    font-size: 42px;
+    line-height: 65px;
+}
+h3 {
+    font-size: 32px;
+    line-height: 42px;
+    @media ( max-width: 1150px ) {
+        font-size: 28px;
+        line-height: 34px;
+    }
+    @media ( max-width: 700px) {
+        font-size: 24px;
+        line-height: 58px;
+    }
+
+}
+h3.h3 {
+    font-family: 'gotham_medium';
+    margin: 0px;
+    font-size: 33px;
+    line-height: 52px;
+}
+h4 {
+    font-size: 24px;
+    line-height: 34px;
+    @media ( max-width: 1150px ) {
+        font-size: 22px;
+        line-height: 40px;
+    }
+    @media ( max-width: 1150px ) {
+        font-size: 20px;
+        line-height: 40px;
+    }
+}
+h4.h4 {
+    font-family: 'gotham_medium';
+    margin: 0px;
+    font-size: 26px;
+    line-height: 42px;
+}
+h5 {
+    font-size: 18px;
+    line-height: 28px;
+    @media ( max-width: 1150px ) {
+        font-size: 16px;
+        line-height: 40px;
+    }
+    @media ( max-width: 700px) {
+        font-size: 14px;
+        line-height: 24px;
+    }
+}
+h5.h5 {
+    font-family: 'gotham_medium';
+    margin: 0px;
+    font-size: 20px;
+    line-height: 33px;
+}
+
+p {
+    margin: 0px;
+}
+.p {
+    font-size: 16px;
+    line-height: 27px;
+}
+
+.typography-test{
+    display: flex;
+    width: 90%;
+    grid-gap: 120px;
+    justify-content: center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.typography-test-one {
+    flex: 1;
+}
+
+.typography-test-two {
+    flex: 1;
+}
+
+
+
+
+.bergendal-booking-section {
+    @include flex-center;
+    align-items: center;
+    grid-gap: 35px;
+    flex-wrap: wrap;
+    background-color: $primary_grey;
+    padding: 60px 18px;
+}
+
+.bergendal-page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 100px 242px 90px 242px;
+    grid-gap: 286px;
+
+    h2, p { max-width: 100%; width: 575px; }
+
+    @media screen and ( max-width: 1500px ) {
+        flex-direction: column;
+        align-items: center;
+        grid-gap: 24px;
+        h2, p { max-width: 100%; width: 1100px; }
+    }
+}
+
+.bergendal-galleri {
+    @include flex-center;
+    flex-direction: column;
+    align-items: center;
+    grid-gap: 15px;
+    height: 943px;
+    background-image: url("../../assets/images/bergendal.jpg");
+    background-size: cover;
+    color: $white;
+
+    div, h1, h5 { text-align: center; }
+
+    h1 { width: 822px; }
+
+    h5 { width: 654px; margin-bottom: 20px; }
+
+}

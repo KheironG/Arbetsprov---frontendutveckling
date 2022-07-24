@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="icon-24-back-arrow" transform="translate(-239 -227)">
+    <rect id="Rectangle_1184" data-name="Rectangle 1184" width="24" height="24" transform="translate(239 227)" fill="rgba(255,255,255,0)"/>
+    <g id="Group_935" data-name="Group 935" transform="translate(251 230.515) rotate(45)">
+      <rect id="Rectangle_700" data-name="Rectangle 700" width="2" height="12" transform="translate(0 0)" fill="#fff"/>
+      <rect id="Rectangle_701" data-name="Rectangle 701" width="2" height="12" transform="translate(12 10) rotate(90)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

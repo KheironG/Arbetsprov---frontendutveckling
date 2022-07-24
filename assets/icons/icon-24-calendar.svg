@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="icon-24-calendar" transform="translate(-448 -622)">
+    <rect id="Rectangle_716" data-name="Rectangle 716" width="24" height="24" transform="translate(448 622)" fill="none"/>
+    <path id="Icon_material-date-range" data-name="Icon material-date-range" d="M10.258,11.637H8.339v1.919h1.919Zm3.839,0H12.177v1.919H14.1Zm3.839,0H16.016v1.919h1.919Zm1.919-6.718h-.96V3H16.975V4.919H9.3V3H7.379V4.919h-.96A1.911,1.911,0,0,0,4.51,6.839L4.5,20.274a1.919,1.919,0,0,0,1.919,1.919H19.854a1.925,1.925,0,0,0,1.919-1.919V6.839A1.925,1.925,0,0,0,19.854,4.919Zm0,15.354H6.419V9.718H19.854Z" transform="translate(446.863 621.403)" fill="#53682b"/>
+  </g>
+</svg>
